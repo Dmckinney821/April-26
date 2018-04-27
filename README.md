@@ -97,3 +97,31 @@ while count_y < size:
 break
 
 
+var = str(input())
+list = ['a', 'i', 'e', 'o', 'u']
+
+for letter in var:
+    if letter in list:
+        print(var.replace(letter, letter*5))
+        break
+    x = 'lbh zhfg hayrnea jung lbh unir yrnearq'
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+for letter in x:
+    if letter == ' ':
+        print(' ')
+        
+    else:
+        index_of_translation = (alphabet.index(letter) - 13) 
+        if index_of_translation < 0:
+            
+            index_of_translation = index_of_translation + 26
+            
+        
+        
+    
+        print(alphabet[index_of_translation])
+    
+
+
